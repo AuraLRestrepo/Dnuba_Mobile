@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;   
+}
+
 .card-container{    
     margin-top: 50px;    
     background-color: #1CA3DC;    
@@ -35,8 +41,7 @@
     margin-left: 15px; 
     padding: 8px;
     border-radius: 5rem;
-    background-color: white; 
-    color: grey;
+    background-color: white;     
     position: relative;
     float: left;
     width: 50px;
@@ -46,12 +51,23 @@
 .card-content{
     margin-left: 95px;
     padding-top: 2px;
-    background: red;      
-    width: 55%;      
+    width: 55%;  
 }
 
 .card-content h4{
-    margin-bottom: -15px;   
+    margin-bottom: -10px;   
     padding-top: 10px;
-    color:rgb(214, 211, 211);    
+    color:rgb(214, 211, 211);
+}
+
+.card-content h2{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15pt;
+}
+
+.card-content input[type=date]{
+    border: none;
+    background: none;
+    color: white;
 }
