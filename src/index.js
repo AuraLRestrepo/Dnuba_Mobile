@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
-import Hello_Word from './components/hello_word';
+import TasksProgress from './components/task_in_progress/task_in_progress';
 
 
 
@@ -11,5 +11,5 @@ import Hello_Word from './components/hello_word';
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 const container = document.getElementById('root');
 
-ReactDOM.render(<Hello_Word/>,container);
+ReactDOM.render(<TasksProgress/>,container);
 reportWebVitals();
