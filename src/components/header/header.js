@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TasksProgress from '../task_in_progress/task_in_progress';
+import Task from '../task/task';
 
 import menu from '../../images/menu.svg';
 import logo from '../../images/Dnuba_Logo_Solo_Colores_Originales.png';
@@ -23,7 +23,7 @@ class Header extends React.Component{
                     </div>
                 </header>
                 <div className="content-task">
-                    <TasksProgress/>
+                    <Task/>
                 </div>
             </React.Fragment>
         );
