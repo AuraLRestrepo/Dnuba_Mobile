@@ -47,8 +47,7 @@ for (let index = 0; index < 5; index++) {
 class TaskInProgress extends React.Component{
         render(){        
         return(            
-            <React.Fragment>                              
-               
+            <React.Fragment>        
                 {tags}
             </React.Fragment> 
         );
