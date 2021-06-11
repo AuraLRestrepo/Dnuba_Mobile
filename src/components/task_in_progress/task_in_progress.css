@@ -6,11 +6,13 @@
 }
 
 .card-container{    
-    margin-top: 50px;    
+    margin-top: 50px;  
+    margin-left: 10px;
+    margin-right: 10px;  
     background-color: #31A894;    
     border-radius: 1rem;
     margin-bottom: -25px;
-    width: 100%;
+    width: 97%;
     height: 150px;
 }
 .card-content-tags{
@@ -145,6 +147,9 @@ progress::-webkit-progress-bar {
 
 /* Responsive menor  450px*/
 @media screen and (max-width: 449px) and (max-width: 300px) {
+    .card-container{
+        margin-left: 5px;
+    }
     .card-img-user{
         width: 60px;
         height: 60px;
@@ -153,6 +158,10 @@ progress::-webkit-progress-bar {
 
 /* Responsive menor  450px*/
 @media screen and (max-width: 450px) {
+    .card-container{
+        margin-left: 5px;
+    }
+
     .card-img-user{
         width: 67px;
         height: 67px;
@@ -200,6 +209,11 @@ progress::-webkit-progress-bar {
 
 /* Responsive mayor a 450px  */
 @media screen and (min-width: 450px){
+    .card-container{
+        margin-right: 5px;
+        margin-left: 15px;
+    }
+
     .card-img-user{
         width: 73px;
         height: 73px;
