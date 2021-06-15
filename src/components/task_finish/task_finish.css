@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif; 
+    box-sizing: border-box;  
+}
+
+.card-container{    
+    margin-top: 50px;  
+    margin-left: 10px;
+    margin-right: 10px;  
+    background-color: #8484b7;    
+    border-radius: 1rem;
+    margin-bottom: -25px;
+    width: 97%;
+    height: 150px;
+}
+.card-content-tags{
+    margin-top: -35px;
+    margin-bottom: -45px;
+    position: absolute;
+    margin-left: -25px;
+}
+
+.card-content-tags ul li{
+    margin-right: 5px;
+    display: inline-flex; 
+    position: relative;    
+    background-color: blue;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 20px;
+    height: 40px;
+    z-index: 10;   
+}
+
+.card-img-user{
+    margin: 1px;  
+    margin-top: 37px;
+    margin-left: 15px; 
+    padding: 8px;
+    border-radius: 5rem;
+    background-color: white;     
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+.card-content{
+    margin-left: 95px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+    width: 55%;  
+    position: static;      
+}
+
+.card-content h4{
+    margin-bottom: -10px;   
+    padding-top: 2px;
+    color:rgb(214, 211, 211);
+}
+
+.card-content h2{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 14pt;
+    width: 80%;
+}
+
+.card-content input[type=date]{
+    border: none;
+    background: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-content-left{
+    margin: 10px;
+    width: 10%;
+    float: right;
+    position: relative; 
+    
+}
+
+.card-menu{
+    width: 30px;
+    height: 30px;
+    float: right; 
+    margin-left: 93px; 
+    margin-bottom: -15px;   
+}
+
+.user_responsable, .user_owner{    
+    width: 30px;
+    height: 30px;
+    padding: 5px; 
+    display: block;
+    float: right;
+    position: relative;
+}
+
+.user_responsable{
+    margin-bottom: 5px;
+}
+
+.user_responsable h3, .user_owner h3{
+    margin-left: -5px;
+    padding: 2px;
+    background-color: white;
+    text-align: center;
+    color: #1CA3DC;
+    border-radius: 5px;
+    position: absolute;  
+    float: right;
+}
+
+.user_responsable h3{      
+    color:rgb(11, 11, 165);     
+}
+
+.card-content-progressbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -15px;
+}
+
+.card-content-progressbar #task{
+    width: 100%;
+    appearance: none;
+    border: none;
+    overflow: hidden;    
+    height: 9px; 
+    border-radius: 50px;  
+}
+
+progress::-webkit-progress-value {
+    background: #ffffff;
+    border-radius : 20px;  
+}
+ 
+progress::-webkit-progress-bar {
+    background-color:#D8D8D8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset; /*esta sombra es para simular el borde que he aplicado arriba para Mozilla*/
+    border-radius : 20px ;         
+}
+
+/* Responsive menor  450px*/
+@media screen and (max-width: 449px) and (max-width: 300px) {
+    .card-container{
+        margin-left: 5px;
+    }
+    .card-img-user{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Responsive menor  450px*/
+@media screen and (max-width: 450px) {
+    .card-container{
+        margin-left: 5px;
+    }
+
+    .card-img-user{
+        width: 67px;
+        height: 67px;
+    }
+
+    .card-content{
+        margin-top: 25px;
+        margin-bottom: 15px;
+        padding-top: 12px;
+    }
+
+    .card-content h4{
+        font-size: 11pt;
+    }
+    
+    .card-content h2{
+        font-size: 13pt;
+    }
+
+    .card-content input[type=date]{
+        margin-bottom: 5px;
+    }
+
+    .card-menu{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;  
+        margin-bottom: -18px;         
+    }
+    .user_responsable, .user_owner{
+        margin-right: 5px;
+    }
+
+    .user_responsable h3, .user_owner h3{
+       margin-top: 23px;
+       font-size: 14pt;
+       margin-left: -5px;
+    }
+
+    .card-content-progressbar #task{
+        margin-top: 16px; 
+    }
+    
+}
+
+/* Responsive mayor a 450px  */
+@media screen and (min-width: 450px){
+    .card-container{
+        margin-right: 5px;
+        margin-left: 15px;
+    }
+
+    .card-img-user{
+        width: 73px;
+        height: 73px;
+    }
+
+    .card-content{
+        margin-left: 100px;
+    }
+    
+    .card-menu{
+        margin-right: 4.5px;               
+    }
+
+    .user_responsable, .user_owner{       
+        width: 40%;
+        margin-top: .3mm;        
+        margin-right: 7px;
+        padding-right: 22px;        
+    }
+
+}
+/* Responsive mayor a 450px  */
+@media screen and (min-width: 715px){
+    .user_responsable, .user_owner{       
+        width: 2%;
+        margin-top: .3mm;        
+        margin-right: 7px;
+        margin-left: 45px;
+        padding-right: 22px;
+              
+    }
+}

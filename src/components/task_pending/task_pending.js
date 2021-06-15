@@ -1,14 +1,14 @@
 import React from 'react';
 
 //Styles
-import './task_in_progress.css';
+import './task_pending.css';
 
 
 //Images
 import img_user from '../../images/user.svg';
 import menu from '../../images/menu.svg';
 
-class TaskInProgress extends React.Component{
+class TaskPending extends React.Component{
         render(){        
         return(            
             <React.Fragment>        
@@ -46,5 +46,4 @@ class TaskInProgress extends React.Component{
     }
 
 }
-export default TaskInProgress;
-
+export default TaskPending;

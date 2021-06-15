@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
-import Header from './components/header/header';
+import App from './components/App';
 
 const container = document.getElementById('root');
 
-ReactDOM.render(<Header/>,container);
+ReactDOM.render(<App/>,container);
 reportWebVitals();

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Task from '../task/task';
+import Task from '../../pages/task/task';
 
 import menu from '../../images/menu.svg';
 import logo from '../../images/Dnuba_Logo_Solo_Colores_Originales.png';
