@@ -10,9 +10,9 @@ class Task extends React.Component{
                 <div className="submenu">
                 <div className="submenu-content">
                     <ul className="option-task">
-                        <li className="type-task pending"><Link className="type-task pending" to="/task/pending">Pendientes</Link></li>
-                        <li className="type-task in-progress"><Link className="type-task in-progress" to="/task/progress">En proceso</Link></li>
-                        <li className="type-task finish"><Link className="type-task finish" to="/task/finish">Finalizadas</Link></li>
+                        <li className="type-task"><Link className="type-task pending" to="/task/pending">Pendientes</Link></li>
+                        <li className="type-task"><Link className="type-task in-progress" to="/task/progress">En proceso</Link></li>
+                        <li className="type-task"><Link className="type-task finish" to="/task/finish">Finalizadas</Link></li>
                     </ul>
                 </div>
             </div>
