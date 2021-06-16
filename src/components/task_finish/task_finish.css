@@ -68,11 +68,12 @@
     width: 80%;
 }
 
-.card-content input[type=date]{
+.card-content #date{
     border: none;
     background: none;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
+    font-size: 11pt;
 }
 
 .card-content-left{
@@ -88,7 +89,7 @@
     height: 30px;
     float: right; 
     margin-left: 93px; 
-    margin-bottom: -15px;   
+    margin-bottom: -20px;   
 }
 
 .user_responsable, .user_owner{    
@@ -101,18 +102,20 @@
 }
 
 .user_responsable{
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .user_responsable h3, .user_owner h3{
+    font-size: 12.5pt;
     margin-left: -5px;
-    padding: 2px;
+    padding: 3px;
     background-color: white;
     text-align: center;
-    color: #1CA3DC;
+    color: #1CA3DC;   
     border-radius: 5px;
     position: absolute;  
-    float: right;
+    width: 30px;
+    height: 30px;
 }
 
 .user_responsable h3{      
@@ -122,7 +125,7 @@
 .card-content-progressbar{
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: -15px;
+    margin-top: -60px;
 }
 
 .card-content-progressbar #task{
@@ -145,20 +148,37 @@ progress::-webkit-progress-bar {
     border-radius : 20px ;         
 }
 
-/* Responsive menor  450px*/
-@media screen and (max-width: 449px) and (max-width: 300px) {
-    .card-container.finish{
+/* Responsive menor 300px*/
+@media screen and (max-width: 360px){
+    .card-container{
         margin-left: 5px;
     }
     .card-img-user{
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
+    } 
+    .card-content #date{
+        margin-bottom: 50px !important;
+    } 
+}  
+
+@media screen and (min-width: 360px)and (max-width: 450px){
+    .card-container{
+        margin-left: 5px;
     }
+    .card-img-user{
+        width: 65px;
+        height: 65px;
+    } 
+    .card-content #date{
+        margin-bottom: 65px !important;
+    } 
+
 }
 
 /* Responsive menor  450px*/
-@media screen and (max-width: 450px) {
-    .card-container.finish{
+@media screen and (min-width: 450px)and (max-width: 540px){
+    .card-container{
         margin-left: 5px;
     }
 
@@ -181,8 +201,8 @@ progress::-webkit-progress-bar {
         font-size: 13pt;
     }
 
-    .card-content input[type=date]{
-        margin-bottom: 5px;
+    .card-content #date{
+        margin-bottom: 8px;
     }
 
     .card-menu{
@@ -196,10 +216,11 @@ progress::-webkit-progress-bar {
     }
 
     .user_responsable h3, .user_owner h3{
-       margin-top: 23px;
-       font-size: 14pt;
+       margin-top: 20px;       
+       font-size: 11.5pt !important;
        margin-left: -5px;
     }
+    
 
     .card-content-progressbar #task{
         margin-top: 16px; 
@@ -208,8 +229,8 @@ progress::-webkit-progress-bar {
 }
 
 /* Responsive mayor a 450px  */
-@media screen and (min-width: 450px){
-    .card-container.finish{
+@media screen and (min-width: 540px) and (max-width: 640px){
+    .card-container{
         margin-right: 5px;
         margin-left: 15px;
     }
@@ -235,7 +256,7 @@ progress::-webkit-progress-bar {
     }
 
 }
-/* Responsive mayor a 450px  */
+/* Responsive mayor a 715px  */
 @media screen and (min-width: 715px){
     .user_responsable, .user_owner{       
         width: 2%;
@@ -246,3 +267,4 @@ progress::-webkit-progress-bar {
               
     }
 }
+
