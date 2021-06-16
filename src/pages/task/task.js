@@ -1,10 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import TasksProgress from '../../components/task_in_progress/task_in_progress';
-import TasksPending from '../../components/task_pending/task_pending';
-import TasksFinish from '../../components/task_finish/task_finish';
-
 import './task.css';
 
 class Task extends React.Component{

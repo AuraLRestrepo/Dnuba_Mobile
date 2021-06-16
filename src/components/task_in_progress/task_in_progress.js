@@ -9,7 +9,7 @@ import img_user from '../../images/user.svg';
 import menu from '../../images/menu.svg';
 
 class TaskInProgress extends React.Component{
-        render(){        
+        render(){                
         return(            
             <React.Fragment>        
                 <div className="card-container progress">
