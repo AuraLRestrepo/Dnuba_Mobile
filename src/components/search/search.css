@@ -1,0 +1,81 @@
+.container-search{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content-search{
+    position: relative;
+    width: 100%;
+    background:  rgb(28,163,220);
+    border-radius: .5rem;
+}
+
+input, button{
+    height: 2rem;
+    border: 0;
+    color: #2f2f2f;
+    font-size: .8rem;
+}
+
+input[type=search] {
+    outline: 0;
+    width: 100%;
+    background: #fff;
+    padding: 0 1.6rem;
+    border-radius: .18rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+    transition: all 2s cubic-bezier(0, 0, 0.43, 1.49);
+    transition-property: width, border-radius;
+    z-index: 1;
+    position: relative;
+    box-shadow: ;
+}
+
+button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    background: rgb(28,163,220);
+    border-radius:0 .2rem .2rem 0;
+}
+
+.icon-search{
+    width: 20px;
+}
+
+input:not(:-moz-placeholder-shown) {
+    border-radius: .2rem 0 0 .2rem;
+    width: calc(100% - 3rem);
+}
+
+input:not(:-ms-input-placeholder) {
+    border-radius: .2rem 0 0 .2rem;
+    width: calc(100% - 3rem);
+}
+
+input:not(:placeholder-shown) {
+    border-radius: .2rem 0 0 .2rem;
+    width: calc(100% - 3rem)
+}
+
+input:not(:-moz-placeholder-shown) + button {
+    display: block;
+}
+
+input:not(:-ms-input-placeholder) + button {
+    display: block;
+}
+
+input:not(:placeholder-shown) + button {
+    display: block;
+}
+
+
+
+
+
