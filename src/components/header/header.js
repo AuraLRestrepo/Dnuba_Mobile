@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Task from '../../pages/task/task';
-
 import menu from '../../images/menu.svg';
 import logo from '../../images/Dnuba_Logo_Solo_Colores_Originales.png';
 
@@ -21,10 +19,7 @@ class Header extends React.Component{
                             <img src={logo} alt="" className="header-logo" />
                         </div>
                     </div>
-                </header>
-                <div className="content-task">
-                    <Task/>
-                </div>
+                </header>                
             </React.Fragment>
         );
     }

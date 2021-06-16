@@ -27,29 +27,35 @@
 
 .type-task.pending{
     background: #1ca3dc;
+    text-decoration: none;
     color: white;
     font-size: 12pt;
     padding: 7px;
     border-radius: 8px;
     width: 20%;
+    cursor: pointer;
 }
 
 .type-task.in-progress{
     background: #31A894;
+    text-decoration: none;
     color: white;
     font-size: 12pt;
     padding: 7px;
     border-radius: 8px;
     width: 20%;
+    cursor: pointer;
 }
 
 .type-task.finish{
     background: #8484b7;
+    text-decoration: none;
     color: white;
     font-size: 12pt;
     padding: 7px;
     border-radius: 8px;
     width: 20%;
+    cursor: pointer;
 }
 
 

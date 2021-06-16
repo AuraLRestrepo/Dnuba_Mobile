@@ -12,7 +12,7 @@ class TaskInProgress extends React.Component{
         render(){        
         return(            
             <React.Fragment>        
-                <div className="card-container">
+                <div className="card-container progress">
                     <div className="card-content-tags">
                         <ul>
                             <li></li>   

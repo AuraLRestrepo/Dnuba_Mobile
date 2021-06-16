@@ -13,7 +13,7 @@ class TaskFinish extends React.Component{
         render(){        
         return(            
             <React.Fragment>        
-                <div className="card-container">
+                <div className="card-container finish">
                     <div className="card-content-tags">
                         <ul>
                             <li></li>   
